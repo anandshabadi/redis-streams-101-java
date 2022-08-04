@@ -3,15 +3,11 @@ package com.kanibl.redis.streams.simple;
 import io.lettuce.core.*;
 import io.lettuce.core.api.StatefulRedisConnection;
 import io.lettuce.core.api.sync.RedisCommands;
-
-
-import java.util.Arrays;
 import java.util.List;
 
 public class RedisStreams101Consumer {
 
     public final static String STREAMS_KEY = "weather_sensor:wind";
-
 
     public static void main(String[] args) {
 
